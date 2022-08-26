@@ -33,7 +33,9 @@ export default function Reviews() {
             );
           })
         ) : (
-          <li>Sorry, there is no reviews at this time</li>
+          <li className={s.warning_item}>
+            Sorry, there is no reviews at this time
+          </li>
         )}
       </ul>
     </>
